@@ -1,2 +1,2 @@
 # M-dulo-JavaScript-2
-Segundo Módulo de JavaScript
+Segundo Modulo de JavaScript
