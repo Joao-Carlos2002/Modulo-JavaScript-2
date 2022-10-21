@@ -35,7 +35,8 @@ section{
     height: 10vh;
     width: 10vw;
     margin: 30vh 39vw;
-    background-color:#ff0000
+    background-color:#ff0000;
+    border-radius: 45%;
 
 }
 
