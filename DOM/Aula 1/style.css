@@ -1,0 +1,45 @@
+section{
+    display: flex;
+}
+
+.square{
+    height: 280px;
+    width: 280px;
+    background-color: #ff0000;
+    margin: 30vh 0 0 35vw;
+    rotate: 45deg;
+    position:absolute;
+}
+
+ .circle,
+.circle1{
+    height: 290px;
+    width: 280px;
+    background-color: #ff0000;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle{
+    margin: 19vh 0 0 30vw;
+}
+
+.circle1{
+    margin: 19vh 0 0 40vw;
+
+}
+
+#botao{
+    font-weight: 700;
+    font-size: 20px;
+    height: 10vh;
+    width: 10vw;
+    margin: 30vh 39vw;
+    background-color:#ff0000
+
+}
+
+#list{
+    margin-left: 18vw;
+    margin-top: 0vh;
+}

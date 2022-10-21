@@ -1,12 +1,33 @@
 function show() {
-    let contatos = document.getElementById('contact-list')
-    console.log(contatos)
 
-    let elementosDeLista = document.getElementsByTagName('li')
-    console.log(elementosDeLista)
+    const section = document.getElementById('heart')
 
-    let inputsDeContato = document.getElementsByClassName('contact-input')
-    console.log(inputsDeContato)
+    const square = document.createElement('div')
+    const circle = document.createElement('div')
+    const circle1 = document.createElement('div')
+    
+    square.className = 'square'
+    circle1.className = 'circle1'
+    circle.className = 'circle'
 
-    let formulario = document.forms()
+    section.appendChild(square)
+    section.appendChild(circle)
+    section.appendChild(circle1)
+
+    const ul= document.getElementById('list')
+    
+    const li = document.createElement('h1')
+    
+    li.className = 'item'
+
+    const title = document.createElement('h1')
+    
+    title.innerText = '❤️Eu te amo Pâmella!❤️'
+
+    title.className = 'titles'
+
+    ul.id = 'list'
+
+    li.appendChild(title)
+    ul.appendChild(li)
 }
