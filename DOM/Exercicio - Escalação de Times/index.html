@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titles">
+        <h1 class="title">Escale seus jogadores</h1>
+        <h1 class="title">Remova seus jogadores</h1>
+    </div>
+    <div class="container">
+        <div class="textContainer">
+            <input class="textInput" type="text" name="playerPosition" id="playerPosition" placeholder="Posição do Jogador" value="">
+            <input class="textInput" type="text" name="playerName" id="playerName" placeholder="Nome do Jogador" value="">
+            <input class="textInput" type="number" name="numberShirt" id="numberShirt" placeholder="Número da Camisa" value="">
+        </div>
+        <div class="removeContainer">
+            <label for="toRemovePlayer">
+                <input class="textInput" type="number" name="numberRemove" id="numberRemove" placeholder="Número da camisa do jogador que deseja remover">
+            </label>
+        </div>
+        <div class="buttonContainer">
+            <input class="buttonInput" type="button" onclick="confirmPlayer()" value="Escalar Jogador">
+            <input class="buttonInput" type="button" onclick="removePlayer()" value="Remover Jogador">
+        </div>
+    </div>
+    <div id="playerList">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
