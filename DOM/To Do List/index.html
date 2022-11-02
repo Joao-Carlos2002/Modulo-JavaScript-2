@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Scripts -->
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <h1>
+                Lista de tarefas
+                <hr>
+            </h1>
+        </header>
+        <section class="main">
+            <form id="container-add-task">
+                <h3>Adicionar tarefa</h3>
+                <input type="text" id="task-input" placeholder="Digite a tarefa" autocomplete="off">
+                <button class="add-task">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </form>
+            <br>
+            <hr>
+            <div class="container-search">
+                <form id="search">
+                    <h3>Pesquisar:</h3>
+                    <input type="text" id="search-input" placeholder="Buscar...">
+                    <button class="delete">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </form>
+                <hr>
+                <form id="filter">
+                    <h3>Filtrar:</h3>
+                    <select name="select-filter" id="select-filter">
+                        <option value="All">Todas</option>
+                        <option value="Complete">Concluídas</option>
+                        <option value="Incomplete">Não concluídas</option>
+                    </select>
+                </form>
+            </div>
+            <section class="tasks">
+                <p>Estudar</p>
+                <div class="toolbar">
+                    <button class="confirm">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                    <button class="edit">
+                        <i class="fa-solid fa-pencil"></i>
+                    </button>
+                    <button class="delete">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </section>
+        </section>
+    </section>
+
+</body>
+
+</html>
