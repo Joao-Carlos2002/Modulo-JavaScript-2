@@ -10,9 +10,6 @@ function confirmPlayer() {
     const newShirt = numberShirt.value
     confirm('Você deseja adicionar este jogador com essas informações:\nPosição do jogador: ' + newPosition + '\nNome do jogador: ' + newName + '\nNúmero da Camisa: ' + newShirt)
     
-    // listPlayer.push({posição: newPosition, nome: newName, camisa: newShirt})
-    
-    
     playerName.value = ''
     playerPosition.value = ''
     numberShirt.value = ''

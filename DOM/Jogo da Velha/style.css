@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#table {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20vw;
+    margin: 8% auto;
+}
+
+.square {
+    font-size: 60px;
+    padding: 2vw;
+    margin: 0vw;
+    font-weight: 200;
+    border: 5px solid #000;
+}

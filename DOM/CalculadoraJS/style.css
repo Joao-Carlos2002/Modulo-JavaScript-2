@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f1f5f9;
+    --border-color: #aaa;
+    --font-color: #212529;
+    --primary-color: #4dff91;
+    --error-color: #ff0043;
+}
+
+#container {
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
+    color: var(--font-color);
+    min-height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 13vh;
+    font-size: 20px;
+}
+
+#switchTheme {
+    height: 6vh;
+    width: 10vw;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: var(--font-color);
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+#switchTheme:hover {
+    transition: 0.5s;
+    background-color: var(--border-color);
+}
+
+#calcInput {
+    position: fixed;
+    top: 15vh;
+    right: 31%;
+    border: 3px solid var(--border-color);
+    width: 40vw;
+    height: 8vh;
+    font-size: 32px;
+    text-align: end;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    color: var(--font-color);
+}
+
+#keysContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 40vw;
+    position: fixed;
+    top: 30vh;
+    right: 30.8%;
+}
+
+.keyClass, #clear, #resultBtn {
+    font-size: 20px;
+    margin: 7px;
+    width: 9vw;
+    height: 8vh;
+    border-radius: 5px;
+    border: 4px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: #212529;
+}
+
+.keyClass:hover, #clear:hover, #resultBtn:hover {
+    border-color: var(--font-color);
+    transition: 0.3s;
+}
+
+#resultSection {
+    position: fixed;
+    top: 82vh;
+    right: 32.2%;
+}
+
+#copyBtn {
+    width: 8vw;
+    cursor: pointer;
+}
+
+#inputResult {
+    width: 30vw;
+    text-align: end;
+    padding-right: 5px;
+}
+
+#copyBtn, #inputResult {
+    font-size: 20px;
+    height: 8vh;
+    margin: -6px;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border-radius: 5px;
+    border: 3px solid var(--border-color);
+}

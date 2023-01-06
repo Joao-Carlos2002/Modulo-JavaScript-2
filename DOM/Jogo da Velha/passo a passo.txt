@@ -1,0 +1,14 @@
+1 - Adicionar inputs para adicionar os dois nomes
+
+2 - Salvar os nomes em variáveis para deixa-las na tela enquanto o jogo acontece
+
+3 - Na mudança de vez o nome deve de quem for a vez deve ficar destacado
+
+4 - Criar um "X" ou "O" na região em que o jogador clicar e impossibilitar ela de ser mudada
+
+5 - Quando alguem ganhar o nome deve aparecer no centro da tela e a região onde venceu deve ser destacada (Ainda 
+decidindo como destacar)
+
+6 - Caso dê empate deve ser escrito empate no meio da tela e quando a partida acabar
+
+7 - Adicionar um botão para reiniciar a partida
